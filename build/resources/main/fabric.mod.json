@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "id": "capefreeloader",
+  "version": "1.0-SNAPSHOT",
+  "name": "Cape Freeloader",
+  "description": "Displays player capes whose data is stored in the unused pixels in their player skin",
+  "authors": [],
+  "contact": {},
+  "license": "GPL-3.0",
+  "icon": "assets/capefreeloader/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "org.dudechill8D.capefreeloader.client.CapeFreeloaderClient"
+    ],
+    "main": [
+      "org.dudechill8D.capefreeloader.CapeFreeloader"
+    ]
+  },
+  "mixins": [
+    "capefreeloader.mixins.json"
+  ],
+  "accessWidener" : "capefreeloader.accesswidener",
+  "depends": {
+    "fabricloader": ">=0.16.9",
+    "fabric": "*",
+    "minecraft": "1.21.4"
+  }
+}

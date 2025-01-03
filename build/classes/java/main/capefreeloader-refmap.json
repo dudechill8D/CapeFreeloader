@@ -1,0 +1,16 @@
+{
+  "mappings": {
+    "org/dudechill8D/capefreeloader/mixin/PlayerMixin": {
+      "method_54647": "Lnet/minecraft/class_1071$1;method_54647(Lnet/minecraft/class_1071$class_8686;Lcom/mojang/authlib/minecraft/MinecraftSessionService;)Lcom/mojang/authlib/minecraft/MinecraftProfileTextures;",
+      "net.minecraft.client.texture.PlayerSkinProvider$1": "net/minecraft/class_1071$1"
+    }
+  },
+  "data": {
+    "named:intermediary": {
+      "org/dudechill8D/capefreeloader/mixin/PlayerMixin": {
+        "method_54647": "Lnet/minecraft/class_1071$1;method_54647(Lnet/minecraft/class_1071$class_8686;Lcom/mojang/authlib/minecraft/MinecraftSessionService;)Lcom/mojang/authlib/minecraft/MinecraftProfileTextures;",
+        "net.minecraft.client.texture.PlayerSkinProvider$1": "net/minecraft/class_1071$1"
+      }
+    }
+  }
+}

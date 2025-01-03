@@ -1,0 +1,12 @@
+/gamerule doMobSpawning false
+/gamerule doDaylightCycle false
+/effect give dudechill8D minecraft:speed infinite 255 true
+/effect clear dudechill8D
+/gamemode spectator
+/gamemode creative
+/limbo
+/effect give dudechill8D minecraft:jump_boost infinite 10 true
+/effect give dudechill8D minecraft:jump_boost infinite 100 true
+/effect clear dudechill8D
+/effect give dudechill8D minecraft:jump_boost infinite 50 true
+/effect clear dudechill8D
